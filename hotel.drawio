@@ -1,0 +1,151 @@
+<mxfile host="app.diagrams.net" modified="2024-06-30T08:18:48.038Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="82AKF6vu6zOyjMspn2Jn" version="24.6.3" type="device">
+  <diagram name="Página-1" id="3kvx7neH3Zmeb1FrHSj2">
+    <mxGraphModel dx="1235" dy="654" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="3keBaazg-oN9x-Tprr_5-1" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;align=left;" parent="1" vertex="1">
+          <mxGeometry x="130" y="110" width="260" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="3keBaazg-oN9x-Tprr_5-2" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Hotel&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="130" y="70" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3keBaazg-oN9x-Tprr_5-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="3keBaazg-oN9x-Tprr_5-3" target="3keBaazg-oN9x-Tprr_5-52" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3keBaazg-oN9x-Tprr_5-3" value="hotel_id PK" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="130" y="110" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3keBaazg-oN9x-Tprr_5-4" value="hotel_name Varchar(255)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="130" y="140" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3keBaazg-oN9x-Tprr_5-5" value="Rating SmallInt (2)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="130" y="170" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3keBaazg-oN9x-Tprr_5-6" value="website varchar(255)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="130" y="230" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0_UufFbeFPvyteKEdM_0-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="3keBaazg-oN9x-Tprr_5-8" target="3keBaazg-oN9x-Tprr_5-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3keBaazg-oN9x-Tprr_5-8" value="address_id FK" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="130" y="260" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3keBaazg-oN9x-Tprr_5-9" value="hotel_image varchar(255)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="130" y="200" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3keBaazg-oN9x-Tprr_5-32" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;align=left;" parent="1" vertex="1">
+          <mxGeometry x="220" y="455" width="180" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="3keBaazg-oN9x-Tprr_5-33" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Address&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="220" y="415" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3keBaazg-oN9x-Tprr_5-34" value="address_id PK" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="215" y="460" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3keBaazg-oN9x-Tprr_5-35" value="postal_code varchar(50)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="225" y="495" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3keBaazg-oN9x-Tprr_5-36" value="street varchar(255)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="225" y="525" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3keBaazg-oN9x-Tprr_5-37" value="number int" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="225" y="555" width="170" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="3keBaazg-oN9x-Tprr_5-40" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;align=left;" parent="1" vertex="1">
+          <mxGeometry x="800" y="285" width="232" height="232" as="geometry" />
+        </mxCell>
+        <mxCell id="3keBaazg-oN9x-Tprr_5-41" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Room&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="800" y="245" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3keBaazg-oN9x-Tprr_5-42" value="room_id PK" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="800" y="285" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3keBaazg-oN9x-Tprr_5-43" value="room_name varchar (255)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="800" y="315" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3keBaazg-oN9x-Tprr_5-44" value="guest_number INT" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="800" y="345" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3keBaazg-oN9x-Tprr_5-45" value="image varchar(255)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="800" y="375" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3keBaazg-oN9x-Tprr_5-46" value="room_description Text" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="800" y="405" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3keBaazg-oN9x-Tprr_5-47" value="hotel_description TEXT" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="130" y="285" width="260" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="3keBaazg-oN9x-Tprr_5-49" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;align=left;" parent="1" vertex="1">
+          <mxGeometry x="542.5" y="70" width="115" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="3keBaazg-oN9x-Tprr_5-50" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;Hotel_room&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="510" y="40" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3keBaazg-oN9x-Tprr_5-51" value="hotel_room_id PK" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="540" y="80" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3keBaazg-oN9x-Tprr_5-52" value="hotelId FK" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="540" y="110" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3keBaazg-oN9x-Tprr_5-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" parent="1" source="3keBaazg-oN9x-Tprr_5-53" target="3keBaazg-oN9x-Tprr_5-42" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3keBaazg-oN9x-Tprr_5-53" value="roomId FK" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="540" y="140" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3keBaazg-oN9x-Tprr_5-60" value="price_night INT" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="800" y="435" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3keBaazg-oN9x-Tprr_5-69" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;align=left;" parent="1" vertex="1">
+          <mxGeometry x="510" y="255" width="215" height="215" as="geometry" />
+        </mxCell>
+        <mxCell id="3keBaazg-oN9x-Tprr_5-70" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Booking&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="515" y="225" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3keBaazg-oN9x-Tprr_5-71" value="booking_id PK" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="510" y="265" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3keBaazg-oN9x-Tprr_5-72" value="customer_email VARCHAR(150)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="510" y="295" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3keBaazg-oN9x-Tprr_5-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="3keBaazg-oN9x-Tprr_5-73" target="3keBaazg-oN9x-Tprr_5-42" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3keBaazg-oN9x-Tprr_5-73" value="Room_id FK" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="510" y="325" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3keBaazg-oN9x-Tprr_5-83" value="check_in Date" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="510" y="355" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3keBaazg-oN9x-Tprr_5-84" value="check_out Date" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="510" y="385" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0_UufFbeFPvyteKEdM_0-2" value="createdAt DATE" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="130" y="320" width="260" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="0_UufFbeFPvyteKEdM_0-4" value="updatedAt DATE" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="130" y="345" width="260" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="0_UufFbeFPvyteKEdM_0-5" value="createdAt DATE" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="215" y="580" width="190" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="0_UufFbeFPvyteKEdM_0-6" value="updatedAt DATE" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="200" y="605" width="220" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="0_UufFbeFPvyteKEdM_0-7" value="createdAt DATE" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="527.5" y="415" width="180" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="0_UufFbeFPvyteKEdM_0-8" value="updatedAt DATE" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="502.5" y="435" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0_UufFbeFPvyteKEdM_0-9" value="updatedAt DATE" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="802" y="485" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0_UufFbeFPvyteKEdM_0-10" value="createdAt DATE" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="826" y="465" width="180" height="25" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+      "target": "es6",
+      "experimentalDecorators": true,
+      "emitDecoratorMetadata": true,
+      "module": "commonjs",
+      "outDir": "./dist",
+      "strict": true,
+      "esModuleInterop": true,
+      "skipLibCheck": true,
+      "forceConsistentCasingInFileNames": true,
+      "strictPropertyInitialization": false,
+    },
+    "include": ["src/**/*.ts", "__tests__/hotel.test.ts"],
+    "exclude": ["node_modules", "./coverage", "./dist", "__tests__", "jest.config.js"]
+  }
