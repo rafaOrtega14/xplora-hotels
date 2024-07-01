@@ -12,6 +12,7 @@ Secure your booking in just a few clicks. Intuitive interface makes it easy to r
 ## SETUP
 1. docker-compose up -d = will automatically create a postgreSQL docker database with ready to use data that will fed the application
 2. npm run dev = creates a nodemon process in 3001 port enabling to use the API REST
+3. Copy .env.example into a .env file the variables inside .env.example are the same as the local docker database 
 
 ## Architecure layers
 1. Domain = A definition of application's entities that will ensure the stability of models
